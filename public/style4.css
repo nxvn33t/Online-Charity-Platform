@@ -1,0 +1,25 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+  }
+.combined{
+    margin-top: 15vh;
+    display: flex;
+}
+.abt_first{
+    padding-top: 7vh;
+    position:relative;
+    padding-left: 3vw;
+}
+.abt_first h1, .abt_first h2{
+    font-size: 7.5vh;
+    padding-bottom: 4vh;
+}
+.abt_first p{
+    padding-bottom: 4vh;
+    font-size: 3vh;
+}
