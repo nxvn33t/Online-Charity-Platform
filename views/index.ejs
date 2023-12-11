@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unity Charity</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -21,8 +22,7 @@
         <!-- Main div -->
         <div class="div_first">
             <h1 class="hover-underline-animation">Unity Charity</h1>
-            <p>This is an online charity platform, connecting people in need with willing volunteers. It streamlines
-                philanthropy, making it easy for users to request and offer assistance, fostering community support.</p>
+            <p>Explore Us, we fundraises for NGOs, fostering transparency and security in payments. Bridge the gap and support positive change today!</p>
         </div>
 
         <!-- Cards for What we do -->
@@ -30,28 +30,70 @@
             <h1>What We Do ?</h1>
             <div class="card_main">
                 <div class="cardd">
-                    <img src="https://picsum.photos/id/103/270/200" alt="">
+                    <img  class="img1" src="9.jpg" alt="">
                     <p>We connect People who need help with People who want to help.</p>
                 </div>
                 <div class="cardd">
-                    <img src="https://picsum.photos/id/199/270/200" alt="">
+                    <img class="img1" src="8.jpg" alt="">
                     <p>Plant trees, clean our surroundnings , feed stray animal.</p>
                 </div>
                 <div class="cardd">
-                    <img src="https://picsum.photos/id/233/270/200" alt="">
-                    <p>Gulabi aakhein jo teri dekhi gulaabi ye dil hogya.</p>
+                    <img class="img1" src="7.jpg" alt="">
+                    <p>Collect Funds for various causes around the world.</p>
                 </div>
             </div>
         </div>
 
         <!-- How We works -->
         <div class="div_third">
-            <img src="https://picsum.photos/id/83/870/550" alt="">
+            <img class="img2" src="1.jpg" alt="">
             <div class="get_involved">
                 <h1>Get Involved</h1>
                 <p>Provide options for people to contribute, volunteer, or donate.</p>
             </div>
         </div>
+
+         <!-- Latest Cause -->
+         <div class="div_second div_four">
+            <h1 class="lat-cause">Latest Causes </h1>
+            <div class="card_main">
+                <div class="cardd">
+                    <img src="https://picsum.photos/id/40/270/300" alt="">
+                    <a href="/thankyou" class="dnt-btn"><button class="donate-btn">Donate<i class="fas fa-hand-holding-usd dnt_icon" aria-hidden="true" style="color: white;"></i></button></a> 
+
+                    <p>"Support stray animals' well-being; donate today for a brighter future!"</p>
+                </div>
+                <div class="cardd">
+                    <img src="https://picsum.photos/id/95/270/300" alt="">
+                    <a href="/thankyou" class="dnt-btn"><button class="donate-btn">Donate<i class="fas fa-hand-holding-usd dnt_icon" aria-hidden="true" style="color: white;"></i></button></a> 
+                    <p>"Help bring relief to drought-affected regions; your support matters."</p>
+                </div>
+                <div class="cardd">
+                    <img src="https://picsum.photos/id/162/270/300" alt="">
+                    <a href="/thankyou" class="dnt-btn"><button class="donate-btn">Donate<i class="fas fa-hand-holding-usd dnt_icon" aria-hidden="true" style="color: white;"></i></button></a> 
+                    <p>"Aid flood victims, your contribution makes a difference in rebuilding.".</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Our mission -->
+        <div class="div_fifth">
+            <img src="collagee.webp" alt="">
+            <div class="mission-main">
+                <h1>Our Missions</h1>
+                <p class="fiv-main-para">Our organization pursues several goals that can be identified as our mission as follows -</p>
+                <div class="mission-list">
+                    <h2>1. Saving Childern</h2>
+                    <p>Our main mission is to save and rescue permanently displaced children.</p>
+                    <h2>2. Peace on Planet</h2>
+                    <p>By working with our partners, we aim to establish peaceful relationships.</p>
+                    <h2>3. Care & Protection</h2>
+                    <p>We provide global care and protection to support people all over the world.</p>
+                </div>
+            </div>
+            
+        </div>
+
 
         <!-- login button -->
         <div class="div_fourth">
@@ -59,12 +101,15 @@
            <a href="/login"><button>LOGIN</button></a> 
         </div>
 
+
         <!--footer  -->
-        <footer>
+        <!-- <footer>
             <a href="#">
                 <h3>Terms and conditions .....</h3>
             </a>
-        </footer>
+        </footer> -->
+
+        <%- include('footer') %>
 </body>
 
 </html>

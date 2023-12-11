@@ -60,6 +60,9 @@ input {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+input {
+    color:black;
+  }
 
 button {
     background: #007BFF;
@@ -73,4 +76,9 @@ button {
 
 button:hover {
     background: #0056b3;
+}
+.error-message{
+    color:red;
+    font-weight: lighter;
+    margin-bottom: 1vw;
 }

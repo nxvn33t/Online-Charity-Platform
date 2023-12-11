@@ -23,3 +23,76 @@
     padding-bottom: 4vh;
     font-size: 3vh;
 }
+.dnt_head{
+    margin-top:30vh;
+   
+}
+.dnt_head h1{
+    padding-left: 30vh;
+    font-size: 7vh;
+    margin: auto;
+    padding-bottom: 8vh;
+}
+.dnt_head h3{
+    padding-left: 87vh;
+    font-size:5vh;
+    text-decoration: underline;
+}
+.dnt_list{
+    padding-top: 10vh;
+}
+.donations{
+    display: flex;
+    padding-bottom: 20vh;
+}
+
+.donations img{
+    padding-left: 3vh;
+    border-radius: 4px;
+}
+.donations div{
+    padding-left: 5vh;
+}
+.donations div p{
+    font-size:3vh;
+}
+.dntt-btn{
+    padding-top: 5vh;
+    display: flex;
+    gap:2vw;
+}
+.donatee-btn{
+    padding: 17px 42px;
+    background-color: blueviolet;
+    border-radius:30px;
+}
+.thankyou{
+    margin: auto;
+    width: 60%;
+    height: 90vh;
+    color:white;
+    text-align: center;
+    
+    padding-top: 30vh;
+}
+.thankyou h1{
+    font-size: 9vh;
+    text-decoration: underline;
+}
+.thankyou h2{
+  font-size: 5vh;
+}
+.thankyou a button{
+    padding:10px 20px;
+    background-color: cadetblue;
+    border-radius:30px;
+    font-size: 3.5vh;
+}
+.img3{
+    height: 570px;
+    width:650px;
+  }
+  .img4{
+    height: 300px;
+    width:500px;
+  }

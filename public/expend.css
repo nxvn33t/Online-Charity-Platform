@@ -1,0 +1,54 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+}
+
+.dog_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    padding-top: 5vh;
+}
+
+.photodog {
+    width: 30%;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.photodog img{
+    height:20rem;
+}
+.dm-h1{
+    padding-top: 20vh;
+    font-size: 7vh;
+    padding-left: 5vh;
+}
+.photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.bill-dh1{
+    
+    font-size: 7vh;
+    padding-left: 5vh;
+}
+.bills-dog{
+    display: flex;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.dbills-dwd{
+    /* text-decoration: none; */
+    color: white;
+    padding-left: 5vw;
+    padding-top: 2vh;
+    font-size: 4vh;
+}

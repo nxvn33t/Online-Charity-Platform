@@ -22,6 +22,7 @@ body {
     text-align: center;
     max-width: 400px;
     width: 100%;
+    /* margin-bottom: 5vw; */
 }
 
 .login-box {
@@ -40,6 +41,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .input-container {
@@ -58,8 +60,11 @@ input {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    /* color: black; */
 }
-
+input {
+    color:black;
+  }
 button {
     background: #007BFF;
     color: #fff;
@@ -75,4 +80,9 @@ button:hover {
 }
 .login-box p{
     padding-top: 3vh;
+}
+.error-message{
+    color:red;
+    font-weight: lighter;
+    margin-bottom: 1vw;
 }
